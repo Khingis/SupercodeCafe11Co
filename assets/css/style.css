@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo:wght@600&family=Special+Elite&display=swap');
+/* font-family: 'Exo', sans-serif;
+font-family: 'Special Elite', cursive;
+Farbe: #000, #fff; */
+
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-size: 16px;
+font-family: 'Special Elite', cursive;
+}
+h1{
+    color: #fff;
+    font-size: 6rem;
+}
+h2,h3,h4{
+    font-family: 'Exo', sans-serif;
+    color: #000;
+    
+}
+h2{
+    font-size: 2rem;  
+}
+
+h3{
+    font-size: 1.5rem;
+}
+h4{
+    font-size: 1.2rem;
+}
+.bgImage{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: auto;
+}
+.imagefix{
+    background-position: bottom center; 
+	background-repeat: no-repeat; 
+	background-size:cover; 
+	background-attachment:fixed;
+    height: 300px;
+}
+
+
+.icon{
+    height: 20px;
+}
+.images{
+    width: 250px;
+    display: inline-block;
+}
+/* navi  */
+.header{
+    
+    margin: 0 auto;
+}
+.header ul{
+    text-align: right;
+    
+}
+.header ul li{
+    display: inline-block;
+    text-align: right;
+    padding:0.78rem ;
+}
+.header ul li a{
+    text-decoration: none;
+    padding-right: 1.5rem;
+}
+
+.main{
+    background-image: url("/assets/img/bg.jpeg");
+    
+    height: 48rem;
+    
+    
+    
+}
+.main h1{
+    display: block;
+    padding-top: 28rem;
+}
+.hello{
+    background-image: url("/assets/img/beans_icon.png");
+    height: 31rem;
+    display: block;
+}
+
+.hellotext{
+    
+    display: block;
+    width: 438px;
+    height: auto;
+    position: relative;
+    left:63px;
+    top:103px;  
+}
+
+
+#bridge_1{
+    background-image: url("/assets/img/bridge_1.jpg");
+}
+
+
+/* ===menu section=== */
+.menu{
+    text-align: center;
+}
+
+.ourMenu{
+    background-image: url("/assets/img/cake_icon.png");
+    height: 80rem;
+}
+
+.container{  
+    width: 100%;
+    text-align:center;
+}
+.container h4{
+    border: 1px solid grey;
+}
+.menuDetail{
+    text-align: center;
+    width:30vw ;
+}
+
+
+
+/* ====ourStory==== */
+#bridge_2{
+    background-image: url("/assets/img/bridge_2.jpg");
+}
+.storySection{
+    text-align: center;
+}
+.storySection div{
+   display: inline-block;
+
+}
+.beschreibung{
+    display: inline-block;
+    width: 20rem;
+    text-align: left;
+    margin: 50px;
+}
+
+.storySection img{ 
+    margin-left: 7rem;
+}
+/* =====catering service==== */
+#bridge_3{
+    background-image: url("/assets/img/bridge_3.jpg");
+}
+
+.cateringSection{
+    text-align: center;
+}
+
+.cateringSection div{
+    display: inline-block;
+    
+}
+.cateringtext{
+    display: inline-block;
+    width: 20rem;
+    text-align: left;
+    margin: 50px;
+}
+
+#bridge_4{
+    background-image: url("/assets/img/bridge_4.jpeg");
+}
+
+
+footer {
+    text-align: center;
+    background-color: #000;
+}
+footer p{
+    color: #fff;
+}
+#today{
+    width: 50px;
+}
