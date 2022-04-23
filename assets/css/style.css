@@ -79,7 +79,7 @@ h4{
 }
 
 .main{
-    background-image: url("/assets/img/bg.jpeg");
+    background-image: url("../img/bg.jpeg");
     
     height: 48rem;
     
